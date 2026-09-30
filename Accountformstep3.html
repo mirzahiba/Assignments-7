@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Step 3: Your Review</title>
+</head>
+<body>
+
+<table width="550" border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <td width="33%" align="center" bgcolor="#a9d18e">Step 1: Account</td>
+        <td width="33%" align="center" bgcolor="#a9d18e">Step 2: Personal Details</td>
+        <td width="33%" align="center" bgcolor="#4a86c5"><b><font color="white">Step 3: Your Review</font></b></td>
+    </tr>
+</table>
+
+<br>
+
+<form action="thankyou.html" method="get">
+    <fieldset>
+        <legend>Your Review</legend>
+
+        <label for="hear_about">How did you hear about us?</label><br>
+        <select id="hear_about" name="hear_about">
+            <option value="">Select your option</option>
+            <option value="friend">Friend</option>
+            <option value="social_media">Social Media</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Would you visit again?</label><br>
+        <input type="radio" id="visit_yes" name="visit_again" value="yes">
+        <label for="visit_yes">Yes</label>
+
+        <input type="radio" id="visit_no" name="visit_again" value="no">
+        <label for="visit_no">No</label>
+
+        <input type="radio" id="visit_maybe" name="visit_again" value="maybe">
+        <label for="visit_maybe">Maybe</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Enter your comments here..."></textarea><br><br>
+
+        <label for="documents">Documents:</label><br>
+        <input type="file" id="documents" name="documents"><br><br>
+
+        <input type="checkbox" id="email_updates" name="email_updates" checked>
+        <label for="email_updates">Sign me up for email updates</label><br><br>
+
+        <a href="accountformstep2.html"><button type="button">Back</button></a>
+        <button type="submit">Submit</button>
+    </fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Step 2: Personal Details</title>
+</head>
+<body>
+
+<table width="550" border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <td width="33%" align="center" bgcolor="#a9d18e">Step 1: Account</td>
+        <td width="33%" align="center" bgcolor="#4a86c5"><b><font color="white">Step 2: Personal Details</font></b></td>
+        <td width="33%" align="center" bgcolor="#d9d9d9">Step 3: Your Review</td>
+    </tr>
+</table>
+
+<br>
+
+<form action="accountformstep3.html" method="get">
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter First Name"><br><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter Last Name"><br><br>
+
+        <label>CNIC:</label><br>
+        <input type="text" name="cnic1" maxlength="5" size="5">
+        -
+        <input type="text" name="cnic2" maxlength="7" size="7">
+        -
+        <input type="text" name="cnic3" maxlength="1" size="1"><br><br>
+
+        <label for="social_link">Social Link:</label><br>
+        <input type="text" id="social_link" name="social_link" placeholder="Enter Facebook/Linkedin profile linke"><br><br>
+
+        <a href="accountformstep1.html"><button type="button">Back</button></a>
+        <button type="submit">Next</button>
+    </fieldset>
+</form>
+
+</body>
+</html>
